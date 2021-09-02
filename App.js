@@ -71,8 +71,7 @@ const App: () => Node = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
+             <Text style={styles.highlight}>This is indian gypsy app.</Text> 
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
@@ -81,7 +80,7 @@ const App: () => Node = () => {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            Read the docs to discover what to do next:
+            thanks for install this app.
           </Section>
           <LearnMoreLinks />
         </View>
